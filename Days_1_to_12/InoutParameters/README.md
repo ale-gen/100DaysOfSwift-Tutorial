@@ -17,3 +17,7 @@ print(myNumber) //prints 13
 addFive(to: &myNumber)
 print(myNumber) //prints 18
 ```
+
+As you can see above - inout parameter contains special keywords (inout in declaration of function and & in calling a function).
+
+Also the value which is passed to function as inout parameter can’t be constant.
